@@ -1,5 +1,7 @@
 :root {
-    --cor-primaria: #673ab7; /* Roxo vibrante */
+   escuro .artigo-autor {
+    color: var(--cor-secundaria);
+} --cor-primaria: #673ab7; /* Roxo vibrante */
     --cor-secundaria: #9575cd; /* Lilás suave */
     --cor-fundo: #f3e5f5; /* Lavanda claríssimo para o fundo */
     --cor-texto: #151428;
@@ -15,7 +17,12 @@
 
 .tema-escuro {
     --cor-primaria: #b39ddb; /* Lilás claro para contraste no escuro */
-    --cor-secundaria: #d1c4e9; /* Lilás claríssimo */
+    --cor-secundari
+.tema-escuro .btn-tema-escuro {
+    background-color: var(--cor-secundaria);
+}
+
+body {a: #d1c4e9; /* Lilás claríssimo */
     --cor-fundo: #1a1a2e; /* Azul arroxeado escuro para o fundo do tema escuro */
     --cor-texto: #ffffff;
     --cor-contraste: #311b92; /* Roxo profundo para contraste no escuro */
@@ -49,9 +56,7 @@
     color: var(--cor-primaria);
 }
 
-.tema-escuro .artigo-autor {
-    color: var(--cor-secundaria);
-}
+.tema-
 
 .tema-escuro .btn-tema-escuro {
     background-color: var(--cor-secundaria);
